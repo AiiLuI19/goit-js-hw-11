@@ -1,0 +1,81 @@
+body {
+  padding-top: 80px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-item {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.bold-text {
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+  height: 260px;
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-card {
+  width: calc((100% - 4 * 15px) / 4);
+  margin: 0 10px 10px 0;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+.search-form {
+  justify-content: center;
+  display: flex;
+  background-color: rgb(149, 242, 179);
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px;
+  border-color: #ccc;
+  top: 0;
+  left: 0;
+}
+
+.input-form {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.btn-form,
+.load-more {
+  cursor: pointer;
+  border-radius: 4px;
+  border-color: #ccc;
+  background-color: rgb(245, 169, 213);
+  color: white;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.load-more {
+  margin-top: 20px;
+  padding: 10px;
+  margin: 10px;
+  opacity: 0.5;
+}
+.footer-btn {
+  text-align: center;
+}
+
+.is-hidden {
+  visibility: hidden;
+}

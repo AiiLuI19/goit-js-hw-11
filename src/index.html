@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 11</title>
     <link rel="stylesheet" href="./sass/index.scss" />
-    
   </head>
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <form class="search-form" id="search-form">
-      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
-      <button type="submit">Search</button>
-      
+      <input
+        class="input-form"
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button class="btn-form" type="submit">Search</button>
     </form>
-      <div class="gallery">
-        <!-- Карточки изображений -->
-      </div>
-      
-    <script src="./index.js" type = "module"></script>
+    <div class="gallery">
+      <!-- Карточки изображений -->
+    </div>
+    <div class="footer-btn">
+      <button type="button" class="load-more is-hidden">Load more</button>
+    </div>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
